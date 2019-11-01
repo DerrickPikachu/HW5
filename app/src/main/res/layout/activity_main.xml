@@ -68,9 +68,9 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="@+id/checkBox1"
+        app:layout_constraintStart_toEndOf="@+id/checkBox1"
         app:layout_constraintTop_toTopOf="@+id/checkBox1"
-        app:srcCompat="@drawable/frenchfry"
-        tools:layout_editor_absoluteX="143dp" />
+        app:srcCompat="@drawable/frenchfry" />
 
     <ImageView
         android:id="@+id/food2"
@@ -130,30 +130,35 @@
             android:id="@+id/appear1"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:visibility="gone"
             app:srcCompat="@drawable/frenchfry" />
 
         <ImageView
             android:id="@+id/appear2"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:visibility="gone"
             app:srcCompat="@drawable/burger" />
 
         <ImageView
             android:id="@+id/appear3"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:visibility="gone"
             app:srcCompat="@drawable/softdrink" />
 
         <ImageView
             android:id="@+id/appear4"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:visibility="gone"
             app:srcCompat="@drawable/soup" />
 
         <ImageView
             android:id="@+id/appear5"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:visibility="gone"
             app:srcCompat="@drawable/coffee" />
     </LinearLayout>
 
