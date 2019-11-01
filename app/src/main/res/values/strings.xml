@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HW5</string>
+    <string name="french_fried">薯條</string>
+    <string name="hamburger">漢堡</string>
+    <string name="cola">可樂</string>
+    <string name="corn_soup">玉米濃湯</string>
+    <string name="order">訂購</string>
+    <string name="coffee">咖啡</string>
+</resources>
